@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "First CI-CD Flask"
+    return "First CI-CD Flask App"
 
 if __name__ == '__main__':
     app.run(debug=True)
